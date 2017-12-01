@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyStorage.Core", "HappyStorage.Core\HappyStorage.Core.csproj", "{073DE426-CC2A-4AA4-A8CC-16BFF8CA1C51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyStorage.UnitTests", "HappyStorage.UnitTests\HappyStorage.UnitTests.csproj", "{08C8A463-66CA-4071-93BC-2667997D1910}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyStorage.FileStorage", "HappyStorage.FileStorage\HappyStorage.FileStorage.csproj", "{80D4BB0A-271D-4AE8-88E2-0F436961B855}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyStorage.SqlStorage", "HappyStorage.SqlStorage\HappyStorage.SqlStorage.csproj", "{6335CB04-6E18-4E0A-BC76-53F41E7B44A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyStorage.MemoryStorage", "HappyStorage.MemoryStorage\HappyStorage.MemoryStorage.csproj", "{F8DE26A4-7089-4F71-AF3E-F0C975F8CF3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{073DE426-CC2A-4AA4-A8CC-16BFF8CA1C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073DE426-CC2A-4AA4-A8CC-16BFF8CA1C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073DE426-CC2A-4AA4-A8CC-16BFF8CA1C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073DE426-CC2A-4AA4-A8CC-16BFF8CA1C51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08C8A463-66CA-4071-93BC-2667997D1910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08C8A463-66CA-4071-93BC-2667997D1910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08C8A463-66CA-4071-93BC-2667997D1910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08C8A463-66CA-4071-93BC-2667997D1910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80D4BB0A-271D-4AE8-88E2-0F436961B855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D4BB0A-271D-4AE8-88E2-0F436961B855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D4BB0A-271D-4AE8-88E2-0F436961B855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D4BB0A-271D-4AE8-88E2-0F436961B855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6335CB04-6E18-4E0A-BC76-53F41E7B44A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6335CB04-6E18-4E0A-BC76-53F41E7B44A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6335CB04-6E18-4E0A-BC76-53F41E7B44A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6335CB04-6E18-4E0A-BC76-53F41E7B44A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8DE26A4-7089-4F71-AF3E-F0C975F8CF3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8DE26A4-7089-4F71-AF3E-F0C975F8CF3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8DE26A4-7089-4F71-AF3E-F0C975F8CF3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8DE26A4-7089-4F71-AF3E-F0C975F8CF3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
